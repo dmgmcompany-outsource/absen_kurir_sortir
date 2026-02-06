@@ -1,29 +1,15 @@
 {
   "expo": {
-    "name": "absen_kurir",
-    "slug": "snack-0b689145-4a2e-4bb9-bea9-12325ebffcc1",
+    "name": "absen-kurir-sortir",
+    "slug": "absen-kurir-sortir",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "publicPath": "./",
+      "build": {
+        "output": "web-build"
+      }
     }
   }
 }
